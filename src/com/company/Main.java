@@ -12,7 +12,10 @@ public class Main {
 
         Fibonacci dif = new Fibonacci();
         if(dif.fibbage(fibby)){
-            System.out.print("Input is a  Fibonacci number!")
+            System.out.println(fibby);
+            System.out.println("Input is a Fibonacci number! Above are the numbers leading up to it!");
+        } else {
+            System.out.println("Input is not a Fibonacci number!");
         }
 
 
